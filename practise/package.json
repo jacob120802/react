@@ -1,0 +1,14 @@
+{
+  "name": "react_app",
+  "version": "1.0.0",
+  "description": "my react app",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jacob Abraham",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
