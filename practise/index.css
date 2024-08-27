@@ -1,4 +1,83 @@
-#anish{
+/* #anish{
+    color: green;
+    background-color: yellow;
+}
+
+.krutarth{
     color: brown;
     background-color: pink;
+} */
+
+.head{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10;
+    
 }
+.logo>img{
+    width:120px;
+    height: 110px;
+    padding: 0px 50px;
+}
+.nav>ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+    
+}
+.nav>ul>li{
+    margin: 15px;  
+    padding: 0px 25px
+
+}
+.nav>ul>button{
+    margin: 15px;  
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.filter{
+    display: flex;
+    margin: 10px;
+}
+.RestroCard{
+    height: 350px;
+    width: 225px;
+    padding: 5px;
+    margin: 5px;
+}
+.RestroCard:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    
+}
+.reslogo{
+    
+    height: 125px;
+    width: 100%;
+}
+.restro{
+    display: flex;
+    flex-wrap: wrap;
+}
+.trr{
+    cursor: pointer;
+    margin: 0px 50px;
+}
+.shimmerContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmerCard{
+    height: 350;
+    width: 225;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+.userCard{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
